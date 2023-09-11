@@ -24,12 +24,28 @@ h1 {
   padding-top: 0.5rem;
   font-size: 25px;
 }
+h4 {
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
 img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
   margin: 2.5rem;
+}
+p {
+  text-transform: capitalize;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 692px) {
